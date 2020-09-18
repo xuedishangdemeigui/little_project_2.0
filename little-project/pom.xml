@@ -56,6 +56,12 @@
 	    <version>8.0.17</version>
     </dependency>
     
+    <dependency>
+    	<groupId>com.alibaba</groupId>
+		<artifactId>druid</artifactId>
+		<version>1.0.14</version>
+    </dependency>
+    
   </dependencies>
   <build>
     <finalName>little-project</finalName>

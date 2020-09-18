@@ -53,10 +53,10 @@ public class LoginServlet extends HttpServlet{
 		boolean flag = loginService.login(loginInfo);
 		LoginResult result=new LoginResult();
 		if(flag) {
-			result.setMsg("µÇÂ½Ê§°Ü");
+			result.setMsg("µÇÂ½³É¹¦");
 			result.setStatusCode("0");
 		}else {
-			result.setMsg("µÇÂ½³É¹¦");
+			result.setMsg("µÇÂ½Ê§°Ü");
 			result.setStatusCode("1");
 		}
 		

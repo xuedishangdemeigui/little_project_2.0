@@ -1,5 +1,7 @@
 package web.dao;
 
+import web.domain.LoginInfo;
+
 public interface LoginDao {
-	public String findPwdByTel(String tel);
+	public boolean findUserByTel(LoginInfo loginInfo);
 }
